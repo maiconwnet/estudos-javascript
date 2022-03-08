@@ -1,24 +1,6 @@
 
-// // const matteoCrecheHorario = 'acorda cedo'
-// function chegarCreheHorario (onibusHorario) {
-//     // let Acorda = '6:00'
-//     // let DarBanhoMatteo = '6:10'
-//     // let PegarOnibus = '7:20'
-
-//     onibusHorario = '7:40'
-//     if (onibusHorario >= '7:25 '){
-
-//         console.log('Parabéns Voce Chegou no horário')
-    
-//     }else{
-    
-//         console.log('você está atrasado')
-//     }
-
-    
-// }
-//  chegarCreheHorario()
-
+// Desafio me Passado por um empresa , para fazer o desenho de uma ampulheta  não consgui fazer o desafio a tempo porém procurei a resolução , e fiz uma que recebe os dados de um input.  
+// Maicon Borges
 
 const btn = document.querySelector("#send");
 btn.addEventListener('click', function(e){
