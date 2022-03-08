@@ -1,5 +1,5 @@
 
-let score = -1
+let score = 90
 let notaEscola = function(score){
 let notaA = score >= 90 && score <= 100
 let notaB = score >= 80 && score <= 89
