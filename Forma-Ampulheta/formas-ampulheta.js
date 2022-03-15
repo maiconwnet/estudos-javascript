@@ -16,25 +16,25 @@ const value = name.value
 
 let n = value;
 let string = "";
-// Reversed pyramid pattern
+// pirâmide invertida
 for (let i = 0; i < n; i++) {
-  // printing spaces
+  // Dando Print nos Espeços
   for (let j = 0; j < i; j++) {
     string += " ";
   }
-  // printing star
+  // print no elemento 
   for (let k = 0; k < (n - i) * 2 - 1; k++) {
     string += "#";
   }
   string += "\n";
 }
-// pyramid pattern
+// pirâmide 2
 for (let i = 2; i <= n; i++) {
-  // printing spaces
+  // print no elemento 
   for (let j = n; j > i; j--) {
     string += " ";
   }
-  // printing star
+  // print no elemento 
   for (let k = 0; k < i * 2 - 1; k++) {
     string += "#";
   }
