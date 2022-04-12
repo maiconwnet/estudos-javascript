@@ -2,8 +2,8 @@
 
 let family = {
 
-    incomes: [255, 435, 869],
-    expenses:[345, 100, 999.22]   
+    incomes: [255, 435, 869.38, 1455,89],
+    expenses:[345, 100, 9999.22]   
     
     }
     
@@ -31,7 +31,7 @@ let family = {
             balancerText = "Possitivo"
     
         }
-        console.log(`seu saldo é ${balancerText}: ${total}`)
+        console.log(`seu saldo é ${balancerText}: R$${total.toFixed(2)}`)
     }
     
     calcBalancer();
